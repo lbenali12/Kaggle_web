@@ -1,0 +1,300 @@
+/*Mise en forme de la banniere du site*/
+#titre {
+		display : block;
+		text-decoration : none;
+		color : white;
+		text-align : center;
+		font-size : xx-large;
+		background-color : #33bdef;
+		margin : -10px;
+		padding : 10px;
+		font-weight: bold;
+}
+
+
+
+/*Suppression du soulignement des mots renvoyant vers un lien et changement de leur couleur en blanc*/
+a {
+		text-decoration : none;
+		color : white;
+}
+
+/*Mise en forme de la colonne droite du site contenant les informations principales sur les enjeux du site*/
+#colonne_droite {
+		display : inline-block;
+		vertical-align : text-top;
+		width : 40%;
+		float : right;
+		text-align : center;
+		padding : 35px;
+}
+
+.formulaire{
+	display: inline-block;
+	vertical-align : text-top;
+	width : 35%;
+	text-align : center;
+	padding : 4%;
+	float: right;
+	height: 3em;
+}
+
+.formulaire2{
+	display: inline-block;
+	color:#33bdef;
+	width:25%;
+	float: right;
+	margin-right: 20%;
+	text-align: center;
+	
+}
+
+
+
+/*Mise en forme de la colonne gauche contenant les elements de redirection (inscription, connexion, listes des equipe)*/
+#colonne_gauche {
+		display : inline-block;
+		vertical-align : text-top;
+		width : 40%;
+		padding : 3.5em;
+}
+
+/*instruction centrant toutes les images du site*/
+.grandeImage {
+		
+		width:50%;
+		height: 50%;
+}
+
+.petiteImage {
+		
+		width:20%;
+		height: 20%;
+}
+
+.tresPetiteImage {
+		
+		width:10%;
+		height: 10%;
+}
+
+.moyenneImage {
+		
+		width:30%;
+		height: 30%;
+}
+
+.centre{
+	text-align:center;
+}
+
+/*Mise en forme du texte explicatif situé sur la colonne droite des enjeux du site.*/
+.description {
+		text-align : center;
+		text-align : justify; /*justification du texte*/
+		font-size : x-large;
+		color : #33bdef;
+}
+
+
+/*Mise en forme des boutons du site*/
+.boutons {
+		box-shadow : 0 1px 0 0 #f0f7fa;
+		background : linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+		background-color : #33bdef;
+		border-radius : 6px;
+		border : #057fd0 solid 1px;
+		display : inline-block;
+		width : 250px;
+		cursor : pointer;
+		color : #ffffff;
+		font-family : Arial;
+		font-size : 15px;
+		font-weight : bold;
+		padding : 6px 24px;
+		text-decoration : none;
+		text-shadow : 0 -1px 0 #5b6178;
+		margin : 10px;
+		padding : 10px;
+		text-align: center;
+}
+
+/*Creation d'un effet sur les boutons du site lorsque l'utilisateur passe sa souris sur un bouton*/
+.boutons:hover {
+	
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.saisie {
+	border:2px solid #33bdef;
+	border-radius:10px;
+	height: 22px;
+	width: 230px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.saisie_heure {
+	border:2px solid #33bdef;
+	border-radius:10px;
+	height: 22px;
+	width: 50px;
+	padding: 10px;
+	margin: 10px;
+}
+
+#saisie_CR {
+	border:2px solid #33bdef;
+	border-radius:10px;
+	height: 22px;
+	width: 275px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.label_saisie{
+	margin: 40px;
+	color: #33bdef;
+	
+}
+
+
+
+.label_titre_page{
+	margin: 10px;
+	padding: 10px;
+	color: #33bdef;
+	font-size: x-large;
+	font-weight: bold;
+	text-align: center;
+}
+
+.message_erreur{
+
+	padding: 10px;
+	color: red;
+	text-align: center;
+	font-size: small;
+	font-weight: bold;
+	display:inline-block;
+	vertical-align: text-top;
+	
+	
+}
+
+.message_erreur2{
+
+	padding: 10px;
+	color: red;
+	text-align: center;
+	font-size: small;
+	font-weight: bold;
+	
+	
+}
+
+
+.message_confirmation{
+
+	color: green;
+	padding: 10px;
+	text-align: center;
+	font-size: large;
+	font-weight: bold;
+	display:inline-block;
+	
+}
+
+.message_confirmation2{
+
+	color: green;
+	padding: 10px;
+	text-align: center;
+	font-size: large;
+	font-weight: bold;
+	
+}
+
+.listeBDD{
+		
+		display: inline-block;
+		clear: left;
+		color: #33bdef;
+		font-size: medium;
+		margin-left: 25%
+}
+
+
+
+.listeCandidat{
+		
+
+	text-align:center;
+		color: #33bdef;
+		font-size: medium;
+		margin-left: 10%;
+		margin-right:10%;
+		
+		
+}
+
+
+
+.listeEquipe{
+	display: inline-block;
+	vertical-align : text-top;
+	width : 35%;
+	text-align : left;
+	padding : 10px;
+	float: right;
+	height: 3em;
+	color: #33bdef;
+
+}
+		
+		
+
+input:checked {
+    height: 20px;
+    width: 20px;
+} 
+
+.motivations{
+	border:2px solid #33bdef;
+	border-radius:10px;
+	
+}
+
+#motivation{
+	color: #33bdef;
+	background-color:white;
+}
+
+
+#deconnexion {
+	
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+
+	border-radius:18px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+	margin:2%;
+}
+#deconnexion:hover {
+	
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+
+
+
+
+

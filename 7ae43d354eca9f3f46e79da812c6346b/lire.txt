@@ -1,0 +1,1 @@
+Ce dossier permettra le stock des compte-rendus deposé par les chefs d'equipe. Le nom est composé de deux chaines de caracteres aleatoires cryptées.
